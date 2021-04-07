@@ -7784,7 +7784,7 @@ button.pt-proceed-button:hover {
   font-size: 1.5vw;
   font-weight: 700;
   color: var(--mblue);
-  margin-right: 1vw;
+  margin-left: 1vw;
 }
 .rfq-main-name {
   display: flex;
@@ -7814,7 +7814,7 @@ button.decline-button {
   font-size: 1vw;
   border-radius: 5px;
   padding: 1vw 1.5vw;
-  margin-right: 1vw;
+  margin-left: 1vw;
 }
 button.proposal-button {
   border: 1px solid var(--mblue);
@@ -7841,6 +7841,7 @@ td.general-info-head {
   font-weight: 700;
   color: #707070;
   padding-right: 4vw;
+  text-align: right;
   margin: 0;
   padding-bottom: 0;
 }
@@ -7851,10 +7852,12 @@ td.general-info-exp {
   color: #4e4e4e;
   margin: 0;
   padding-bottom: 0;
+  text-align: right;
 }
 .general-info-exp-doc {
   background-color: #ffffff;
   font-size: 1vw;
+  text-align: right;
   font-weight: 500;
   color: var(--mblue);
 }
@@ -7872,7 +7875,7 @@ td.general-info-exp {
   font-size: 1.2vw;
   color: var(--mblue);
   font-weight: 700;
-  padding-left: 0.5vw;
+  padding-right: 0.5vw;
   cursor: pointer;
 }
 .general-info-detail {
@@ -7887,9 +7890,11 @@ td.seller-req-head {
   padding-right: 0.8vw;
   padding-bottom: 0;
   margin: 0;
+  text-align: right;
 }
 td.seller-req-exp {
   background-color: #ffffff;
+  text-align: right;
   font-size: 1vw;
   font-weight: 400;
   color: #4e4e4e;
@@ -7910,7 +7915,7 @@ td.seller-req-exp {
   font-size: 1.2vw;
   color: var(--mblue);
   font-weight: 700;
-  padding-left: 0.5vw;
+  padding-right: 0.5vw;
   cursor: pointer;
 }
 .seller-req-detail {
@@ -7924,10 +7929,12 @@ td.pay-info-head {
   color: #707070;
   padding-bottom: 0.5;
   width: 14.5vw;
+  text-align: right;
 }
 td.pay-info-exp {
   background-color: #ffffff;
   font-size: 1vw;
+  text-align: right;
   font-weight: 400;
   color: #4e4e4e;
   padding-bottom: 0;
@@ -7946,7 +7953,7 @@ td.pay-info-exp {
   font-size: 1.2vw;
   color: var(--mblue);
   font-weight: 700;
-  padding-left: 0.5vw;
+  padding-right: 0.5vw;
   cursor: pointer;
 }
 .payment-info-detail {
@@ -7956,6 +7963,7 @@ td.pay-info-exp {
   font-size: 1.2vw;
   color: var(--mblue);
   font-weight: 700;
+  text-align: right;
 }
 .search-rfq input {
   border: 1px solid #d7dae2;
@@ -7990,7 +7998,7 @@ td.pay-info-exp {
   border-radius: 5px;
   padding-left: 0.55vw;
 }
-.sort-buttons-box.col-2 {
+.sort-buttons-box.col-sm-2 {
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -8004,7 +8012,7 @@ td.pay-info-exp {
   color: #707070;
   margin-bottom: 1.5vw;
 }
-.buttons-box.col-10 {
+.buttons-box.col-sm-10 {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -8024,7 +8032,7 @@ td.pay-info-exp {
 }
 .buttons-box button.sort-button i {
   font-size: 1vw;
-  padding-left: 2vw;
+  padding-right: 2vw;
 }
 .buttons-box button.sort-button.pt-button i {
   padding: 0.3vw 0.3vw !important ;
@@ -8039,7 +8047,7 @@ td.pay-info-exp {
   font-size: 1vw;
   color: #707070;
   padding-bottom: 0.5vw;
-  padding-right: 1vw;
+  padding-left: 1vw;
 }
 .pro-1-heading h4 {
   font-size: 1.3vw;
@@ -8067,6 +8075,7 @@ td.pro-1-box-head {
   color: #707070;
   padding-bottom: 0.5vw;
   width: 14.5vw;
+  text-align: right;
 }
 .pro-1-box {
   border-top: 2px solid #f6f6f6;
@@ -8078,6 +8087,7 @@ td.pro-1-box-exp {
   font-weight: 400;
   color: #4e4e4e;
   padding-bottom: 0.5vw;
+  text-align: right;
 }
 .right-pro-1-box {
   background-color: #f6f6f6;
@@ -8101,6 +8111,7 @@ td.pro-1-box-exp {
   font-size: 0.9vw;
   color: #000000;
   font-weight: 400;
+  text-align: right;
 }
 .pro-price span {
   font-size: 0.9vw;
@@ -8111,17 +8122,18 @@ td.pro-1-box-exp {
   height: 4vw;
   border: 2px solid #e6e6e6;
   border-radius: 5px;
-  width: 16vw;
+  width: 100%;
 }
 .pro-currency {
-  padding-left: 0;
-  padding-right: 2.5vw;
+  padding-right: 0;
+  padding-left: 2.5vw;
 }
 .pro-currency h4 {
   font-size: 0.9vw;
   color: #000000;
   font-weight: 400;
   padding-right: 0.5vw;
+  text-align: right;
 }
 .pro-currency span {
   font-size: 0.9vw;
@@ -8159,6 +8171,7 @@ td.pro-1-box-exp {
   font-size: 0.9vw;
   color: #000000;
   font-weight: 400;
+  text-align: right;
 }
 .pro-quan span {
   font-size: 0.9vw;
@@ -8174,12 +8187,14 @@ td.pro-1-box-exp {
 .timeship-box h4 {
   padding-top: 1.25vw;
   font-size: 0.9vw;
+  text-align: right;
   color: #4e4e4e;
   font-weight: 500;
 }
 .right-pro-attach h4 {
   padding-top: 1.25vw;
   font-size: 0.9vw;
+  text-align: right;
   font-weight: 500;
   color: #000000;
 }
@@ -8208,6 +8223,7 @@ td.pro-1-box-exp {
   font-weight: 400;
   font-style: italic;
   padding-top: 0.5vw;
+  text-align: right;
 }
 .file-pdf-del-box {
   display: flex;
@@ -8223,7 +8239,8 @@ td.pro-1-box-exp {
   color: #475372;
 }
 .del-box {
-  padding-left: 0;
+  padding-right: 0;
+  padding-left: 2.5vw;
 }
 .del-box i {
   border: 1px solid #e6e6e6;
@@ -8238,10 +8255,11 @@ td.pro-1-box-exp {
   color: #000000;
   font-size: 0.9vw;
   font-weight: 400;
+  text-align: right;
 }
 .addi-info input {
   height: 8vw;
-  width: 26vw;
+  width: 100%;
   border: 2px solid #e6e6e6;
   border-radius: 5px;
 }
@@ -8280,25 +8298,32 @@ td.pro-1-box-exp {
   font-weight: 400;
   color: #1a2950;
   margin: 0;
+  text-align: right;
 }
 .docu-pdf p {
   font-size: 0.9vw;
   font-weight: 400;
   color: #b1b1b1;
   margin: 0;
+  text-align: right;
 }
 .timeship-counter .counter-minus,
 .timeship-counter .counter-plus {
   border: 0;
   background-color: #e6e6e6 !important;
   font-size: 1.75vw;
-  width: 3vw;
+  width: 25%;
   height: 4vw;
   color: #707070;
 }
+.timeship-box,
+.addi-info
+{
+  padding: 0 0 0 2.5vw;
+}
 .timeship-counter .counter-display {
   font-size: 1.1vw !important;
-  width: 5vw;
+  width: 50%;
   margin: 0;
   text-align: center;
   background-color: unset !important;
@@ -8309,12 +8334,12 @@ td.pro-1-box-exp {
   justify-content: space-evenly;
   border: 2px solid #e6e6e6;
   border-radius: 5px;
-  width: 11vw;
+  width: 100%;
   height: 4vw;
   background-color: #ffffff;
 }
 .right-pro-attachment {
-  padding-right: 1vw;
+  padding-left: 1vw;
 }
 .pro-2-heading,
 .pro-3-heading,
@@ -8331,7 +8356,7 @@ td.pro-1-box-exp {
   font-size: 1vw;
   color: #707070;
   padding-bottom: 0.5vw;
-  padding-right: 1vw;
+  padding-left: 1vw;
 }
 .pro-2-heading h4,
 .pro-3-heading h4,
@@ -18497,6 +18522,531 @@ text-align: right;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+button.decline-button,
+button.proposal-button,
+.collapse-view button.collapse-button,
+.collapse-view button.view-button
+{
+  display: none;
+}
+.rfq-main-name h1 {
+    font-size: 3.5vw;
+    font-weight: 700;
+    color: var(--mblue);
+    margin-right: 1vw;
+}
+.rfq-main-name h6 {
+    font-size: 3vw;
+    font-weight: 600;
+    color: #ff4e4e;
+    font-style: italic;
+}
+.rfq-main-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.rfq-transaction-button h2 {
+    color: #707070;
+    font-size: 3vw;
+    font-weight: 600;
+}
+.general-info-name h4 {
+    font-size: 3.5vw;
+    color: var(--mblue);
+    font-weight: 700;
+    padding-left: 1.5vw;
+    margin: 0;
+    cursor: pointer;
+}
+.general-info-name i {
+    font-size: 3vw;
+    color: var(--mblue);
+    padding-bottom: 0.5vw;
+}
+td.general-info-head {
+    background-color: #f6f6f6;
+    font-size: 3vw;
+    font-weight: 700;
+    color: #707070;
+    padding-right: 4vw;
+    margin: 0;
+    padding-bottom: 0;
+}
+td.general-info-exp {
+    background-color: #ffffff;
+    font-size: 3vw;
+    font-weight: 400;
+    color: #4e4e4e;
+    margin: 0;
+    padding-bottom: 0;
+}
+.general-info-exp-doc {
+    background-color: #ffffff;
+    font-size: 3vw;
+    font-weight: 500;
+    color: var(--mblue);
+}
+.general-info-name
+{
+  margin-bottom: 2.5vw;
+}
+.seller-req-name h4 {
+    font-size: 3.5vw;
+    color: var(--mblue);
+    font-weight: 700;
+    margin: 0;
+    padding-left: 1.5vw;
+    cursor: pointer;
+}
+.seller-req-name i {
+    font-size: 3vw;
+    color: var(--mblue);
+    padding-bottom: 0.5vw;
+}
+.seller-req-name {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 1.5vw;
+}
+td.seller-req-head {
+    background-color: #f6f6f6;
+    font-size: 3vw;
+    font-weight: 700;
+    color: #707070;
+    padding-right: 0.8vw;
+    padding-bottom: 0;
+    margin: 0;
+}
+td.seller-req-exp {
+    background-color: #ffffff;
+    font-size: 3vw;
+    font-weight: 400;
+    color: #4e4e4e;
+    margin: 0;
+    padding-bottom: 0;
+}
+.payment-info-name h4 {
+    font-size: 3.5vw;
+    color: var(--mblue);
+    font-weight: 700;
+    padding-left: 1.5vw;
+    cursor: pointer;
+    margin: 0;
+}
+.payment-info-name i {
+    font-size: 3vw;
+    color: var(--mblue);
+    padding-bottom: 0.5vw;
+}
+.payment-info-name {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 1.5vw;
+}
+td.pay-info-head {
+    background-color: #f6f6f6;
+    font-size: 3vw;
+    font-weight: 700;
+    color: #707070;
+    padding-bottom: 1.5;
+    width: 35vw;
+}
+td.pay-info-exp {
+    background-color: #ffffff;
+    font-size: 3vw;
+    font-weight: 400;
+    color: #4e4e4e;
+    padding-bottom: 0;
+}
+.pro-req-info h1 {
+    font-size: 3.5vw;
+    color: var(--mblue);
+    font-weight: 700;
+}
+.search-rfq input {
+    border: 1px solid #d7dae2;
+    border-radius: 5px;
+    color: #cecece;
+    font-size: 3vw;
+    font-weight: 600;
+    padding: 0 2.5vw;
+    /* height: 8.5vw; */
+}
+.search-rfq input::placeholder
+{
+  font-size: 3vw;
+}
+.search-rfq .search-text-rfq {
+    color: #707070;
+    font-size: 3vw;
+    background-color: #ffffff;
+    padding: 0.3vw 2.5vw;
+}
+.sort-buttons-box h4 {
+    font-size: 3vw;
+    font-weight: 600;
+    color: #707070;
+    margin-bottom: 0vw;
+}
+.buttons-box.col-sm-10 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: 0 0 75%;
+    max-width: 75%;
+    padding: 2.5vw;
+}
+.buttons-box button.sort-button {
+    border: 1px solid #d7dae2;
+    color: #707070;
+    font-size: 3vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    width: 100%;
+    height: 9.5vw;
+    margin-right: 0;
+}
+.buttons-box button.sort-button i {
+    font-size: 3vw;
+    padding-left: 2.5vw;
+}
+.buttons-box.col-sm-10 .dropdown 
+{
+  width: 40%;
+}
+.sort-buttons-box.col-sm-2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 1.5vw;
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+td.pro-1-box-head {
+    background-color: #ffffff;
+    font-size: 3vw;
+    font-weight: 700;
+    color: #707070;
+    padding-bottom: 0.5vw;
+    width: 35vw;
+}
+td.pro-1-box-exp {
+    background-color: #ffffff;
+    font-size: 3vw;
+    font-weight: 400;
+    color: #4e4e4e;
+    padding-bottom: 0.5vw;
+}
+.pro-1-heading h4 {
+    font-size: 3.5vw;
+    color: #707070;
+    font-weight: 700;
+    padding-left: 2.5vw;
+    cursor: pointer;
+    margin: 0;
+}
+.pro-1-heading i {
+    font-size: 3vw;
+    color: #707070;
+    padding-bottom: 0.5vw;
+    padding-right: 1vw;
+}
+.pro-1-heading {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2vw 5vw;
+    margin: 0;
+}
+.pro-price h4 {
+    font-size: 3vw;
+    color: #000000;
+    font-weight: 400;
+}
+.right-pro-1-box {
+    background-color: #f6f6f6;
+    padding: 5vw;
+}
+.pro-price input {
+    height: 8.5vw;
+    border: 2px solid #e6e6e6;
+    border-radius: 1vw;
+    width: 100%;
+    font-size: 3vw;
+}
+.pro-currency h4 {
+    font-size: 3vw;
+    color: #000000;
+    font-weight: 400;
+    padding-right: 0.5vw;
+}
+.pro-currency {
+    padding: 0;
+    margin-bottom: 2.5vw;
+}
+.right-pro-1-box .row 
+{
+  margin: 2.5vw 0;
+}
+.pro-currency button {
+    border: 2px solid #e6e6e6;
+    border-radius: 5px;
+    height: 8.5vw;
+    width: 100%;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 3vw;
+    padding: 0 3.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.pro-price
+{
+  padding: 0;
+  margin-bottom: 2.5vw;
+}
+.pro-currency button i {
+    padding-left: 3vw;
+    color: #707070;
+    font-size: 3vw;
+}
+.pro-quan input {
+    width: 100%;
+    height: 8.5vw;
+    border: 2px solid #e6e6e6;
+    border-radius: 1vw;
+    font-size: 3vw;
+}
+.pro-quan
+{
+  padding: 0;
+  margin-bottom: 2.5vw;
+}
+.pro-quan h4 {
+    padding-top: 1.25vw;
+    font-size: 3vw;
+    margin: 0;
+    color: #000000;
+    font-weight: 400;
+}
+.timeship-box
+{
+  padding: 0;
+  margin-bottom: 2.5vw;
+}
+.right-pro-attach
+{
+  padding: 0;
+}
+.right-pro-attach h4 {
+    padding-top: 0vw;
+    font-size: 3.5vw;
+    font-weight: 500;
+    color: #000000;
+}
+.timeship-box h4 {
+    padding-top: 0;
+    font-size: 3vw;
+    color: #4e4e4e;
+    font-weight: 500;
+}
+.timeship-counter {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 2px solid #e6e6e6;
+    border-radius: 1vw;
+    width: 50vw;
+    height: 8.5vw;
+    background-color: #ffffff;
+}
+.timeship-counter .counter-minus, .timeship-counter .counter-plus {
+    border: 0;
+    background-color: #e6e6e6 !important;
+    font-size: 5vw;
+    width: 25%;
+    height: 8.5vw;
+    color: #707070;
+}
+.timeship-counter .counter-display {
+    font-size: 3.5vw !important;
+    width: 50%;
+    margin: 0;
+    text-align: center;
+    background-color: unset !important;
+}
+.right-pro-attach-box {
+    border: 2px dashed #e6e6e6;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    padding: 1.5vw;
+    height: 20vw;
+    align-items: center;
+}
+.right-pro-attach-box i {
+    color: #b1b1b1;
+    font-size: 5vw;
+    padding-right: 3.5vw;
+}
+.right-pro-attach-box p {
+    color: #b1b1b1;
+    font-size: 3.5vw;
+    font-weight: 400;
+    margin: 0;
+}
+.attach-pdf-box p {
+    color: #b6b6b6;
+    font-size: 3vw;
+    font-weight: 400;
+    font-style: italic;
+    padding-top: 0.5vw;
+    margin: 2.5vw 0;
+}
+.attach-pdf-box
+{
+  padding: 0;
+}
+.file-box i {
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    background-color: #ffffff;
+    font-size: 5vw;
+    padding: 2vw;
+    color: #475372;
+}
+.docu-pdf h5 {
+    font-size: 3vw;
+    font-weight: 400;
+    color: #1a2950;
+    margin: 0;
+}
+.docu-pdf p {
+    font-size: 3vw;
+    font-weight: 400;
+    color: #b1b1b1;
+    margin: 0;
+}
+.del-box i {
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    background-color: #ffffff;
+    font-size: 5vw;
+    padding: 2vw;
+    color: #ff0000;
+    box-shadow: 0 2px 4px rgb(160 163 182 / 20%);
+}
+.file-box
+{
+  padding: 0;
+}
+.del-box
+{
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; 
+}
+.addi-info
+{
+  padding: 0;
+  margin-bottom: 2.5vw;
+}
+.addi-info h4 {
+    color: #000000;
+    font-size: 3vw;
+    font-weight: 400;
+}
+.addi-info input {
+    height: 8.5vw;
+    width: 100%;
+    border: 2px solid #e6e6e6;
+    border-radius: 1vw;
+    font-size: 3vw;
+}
+.right-box-buttons button.save-button {
+    border: 1px solid var(--mblue);
+    color: #ffffff;
+    font-size: 3vw;
+    font-weight: 500;
+    border-radius: 1vw;
+    padding: 0;
+    margin-right: 0;
+    background-color: var(--mblue);
+    width: 100%;
+    height: 8.5vw;
+}
+.right-box-buttons
+{
+  padding: 0;
+}
+.pro-2-heading h4, .pro-3-heading h4, .pro-4-heading h4 {
+    font-size: 3.5vw;
+    color: #707070;
+    font-weight: 700;
+    padding-left: 2.5vw;
+    margin: 0;
+}
+.pro-2-heading i, .pro-3-heading i, .pro-4-heading i {
+    font-size: 3vw;
+    color: #707070;
+    padding-bottom: 0.5vw;
+    padding-right: 1vw;
+}
+.pro-2-heading, .pro-3-heading, .pro-4-heading {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2vw 5vw;
+    border-bottom: 2px solid #f6f6f6;
+}
+.col-2.file-box
+{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
 
 
 
